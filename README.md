@@ -14,4 +14,4 @@ In this algorithm i used some a classic library: random to generate random numbe
 
 ### Exercice3 :Machine learning
 ### the file : Bert_roBerta.ipynb
-**For this exercice i used Google Colab to afford a GPU, i folloxed the documentation of Hugging Face using transformers to train my data from loading dataset until the training of the model, unfortunatly the model didn't train. **
+**For this exercice i used Google Colab to afford a GPU, i folloxed the documentation of Hugging Face using transformers to train my data from loading dataset until the training of the model, unfortunatly the model didn't train.**
