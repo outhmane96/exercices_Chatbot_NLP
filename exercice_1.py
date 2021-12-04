@@ -27,7 +27,7 @@ def compare_frequency(list_codes,available_codes):
 	for code in list_codes:
 		list_frequencies.append(calculate_frequency(code,available_codes))
 	print(list_frequencies)
-	# aficher un barplot contenant les frequences des codes
+	# afficher un barplot contenant les frequences des codes
 	plt.bar([str(x) for x in list_codes],list_frequencies, color ='blue',
 			width = 0.4)
 	plt.xlabel("Codes")
@@ -35,11 +35,11 @@ def compare_frequency(list_codes,available_codes):
 	plt.title("La fréquence de chaque code")
 	plt.show()
 
-# les statistiques concernant les frquences des codes 
+# les statistiques concernant les fréquences des codes 
 def analyse_frequencies(list_codes):
 	code_frequency=collections.Counter(list_codes)
 
-	# une list contenant les féquences
+	# une liste contenant les fréquences
 	array_frequency = list(code_frequency.values())
 
 	# le min des frequences
@@ -51,7 +51,7 @@ def analyse_frequencies(list_codes):
 	# la moyenne
 	mean_freq = sum(array_frequency) / len(array_frequency)
 
-	# list pour les statistiques
+	# liste pour les statistiques
 	stats = [min_freq,max_freq,median_freq,mean_freq]
 	plt.bar(['min = {}'.format(min_freq),'max = {}'.format(max_freq),'median = {:.2f}'.format(median_freq),'mean = {:.2f}'.format(mean_freq)],stats, color ='blue',
 			width = 0.4)
