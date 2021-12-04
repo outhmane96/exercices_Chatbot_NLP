@@ -9,6 +9,7 @@ collections to calculate frequencies, statistics for the median and mean and mat
 ### Exercice2 :Algorithmic
 ### the file : Exercice_2.py 
 > in this algorithm the user shoul input the lenght of the array the minimum value and maximum value.
+
 **In the second algorithm i created a recursive function based on what so called divide and conquer, in optimization and to look for the optimum solution we use the binary search or dichotomy which are efficients algorithms. 
 In this algorithm i used some a classic library: random to generate random numbers to test my algorithm**
 
