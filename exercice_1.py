@@ -2,6 +2,7 @@ import numpy as np
 import csv
 import collections
 
+# read csv file and put codes in a numpy array of codes
 def read_csv(file):
 	codes = open(file)
 	reader = csv.reader(codes)
